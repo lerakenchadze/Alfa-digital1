@@ -97,6 +97,7 @@
   }
 
   .cost__block-right {
+    width: 100%;
     flex-direction: column;
   }
 
@@ -125,10 +126,16 @@
   }
 
   .offer__pic-hidden {
+    margin-bottom: 24px;
     display: block;
   }
 
+  .offer__block-card {
+    margin-top: 0;
+  }
+
   .offer__left {
+    margin-right: 0;
     position: relative;
   }
 
@@ -242,6 +249,10 @@
     color: var(--green-color);
   }
 
+  .header__block {
+    box-shadow: 4px 4px 20px 0px #292D291A;
+  }
+
   .header__block2 {
     display: none;
   }
@@ -254,6 +265,10 @@
     margin-bottom: 40px;
   }
 
+  .offer__content-form {
+    row-gap: 0;
+  }
+
   .offer__title {
     font-size: 22px;
     line-height: 25.78px;
@@ -264,13 +279,41 @@
     line-height: 14.06px;
   }
 
+  .offer__card-content {
+    padding: 16px;
+    text-align: center;
+  }
+
+  .offer__content-title {
+    display: none;
+  }
+
+  .offer__content-subtitle {
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 14.06px;
+  }
+
+  .offer__form-input {
+    padding: 15px 16px;
+    margin-bottom: 16px;
+  }
+
   .form__input::placeholder {
     font-size: 14px;
     line-height: 16.41px;
   }
 
+  .offer__form-select {
+    margin-bottom: 16px;
+  }
+
   .cost {
     margin-bottom: 40px;
+  }
+
+  .cost__card {
+    padding: 16px;
   }
 
   .cost__title {
@@ -296,6 +339,10 @@
     width: 100%;
     text-align: left;
     box-shadow: none;
+  }
+
+  .input__file-button {
+    width: 100%;
   }
 
   .cost__block-left {
@@ -379,6 +426,7 @@
     line-height: 21.09px;
   }
 
+
   .services__subtitle {
     margin-bottom: 16px;
     font-size: 14px;
@@ -395,6 +443,14 @@
     display: none;
   }
 
+  .services__card {
+    width: 100%;
+    min-height: 433px;
+    padding: 16px;
+    /* margin-right: 0; */
+    box-shadow: 4px 4px 20px 0px #292D291A;
+  }
+
   .services__card-title {
     font-size: 16px;
     line-height: 18.75px;
@@ -402,6 +458,7 @@
   }
 
   .services__card-square {
+    margin-right: 93px;
     font-size: 16px;
     line-height: 18.75px;
     font-weight: 700;
@@ -471,9 +528,15 @@
 
   .project__form-textarea {
     margin-bottom: 16px;
+    height: 60px;
     font-size: 14px;
     line-height: 16.41px;
     font-weight: 400;
+    border-radius: 5px;
+  }
+
+  .project__file-button {
+    width: 100%;
   }
 
   .project__file-button-text {
@@ -493,6 +556,12 @@
     padding-top: 30px;
     padding-bottom: 50px;
   }
+
+
+  .footer__left-list2 {
+    justify-content: left;
+  }
+
 }
 
 @media (max-width:576px) {

@@ -111,9 +111,6 @@ body {
 
 /* header */
 
-.header {
-  padding-top: 16px;
-}
 
 .header__content {
   justify-content: space-between;
@@ -189,6 +186,11 @@ body {
 
 .colortext {
   color: var(--green-color);
+}
+
+.header__block {
+  padding-top: 16px;
+  padding-bottom: 20px;
 }
 
 .header__block2{
@@ -280,6 +282,7 @@ body {
 
 .offer {
   padding-bottom: 80px;
+  margin-bottom: 20px;
   background-image: url("../img/Frame\ 738005159.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -723,9 +726,10 @@ body {
 .input__file-button {
   cursor: pointer;
   align-items: center;
-  min-width: 474px;
+  width: 474px;
   height: 56px;
   padding: 18px 16px;
+  background-color: var(--white-color);
   border: 1px solid var(--form-color);
   border-radius: 5px;
 }
@@ -861,7 +865,7 @@ body {
 }
 
 .services__card {
-  min-width: 500px;
+  width: 500px;
   min-height: 433px;
   padding: 21px 20px 35px 20px;
   margin-right: var(--gap);
@@ -1080,7 +1084,7 @@ body {
 .project__file-button {
   cursor: pointer;
   align-items: center;
-  min-width: 474px;
+  width: 100%;
   height: 56px;
   padding: 18px 16px;
   background-color: var(--white-color);
